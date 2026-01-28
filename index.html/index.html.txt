@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Romas Car - Oficina do Filipe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="Romas Car">
+  </div>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="menu-mobile" onclick="toggleMenu()">☰</div>
+</header>
+
+<section id="inicio" class="hero">
+  <h1>ROMAS CAR</h1>
+  <p>Oficina Mecânica especializada em manutenção, revisão e retífica de motores</p>
+  <a href="https://wa.me/55031997474266" target="_blank" class="btn">
+    📞 31 99747-4266
+  </a>
+</section>
+
+<section id="servicos" class="servicos">
+  <h2>Nossos Serviços</h2>
+
+  <div class="cards">
+    <div class="card">🔧 Troca de Óleo</div>
+    <div class="card">🛠️ Revisão Completa</div>
+    <div class="card">⚙️ Retífica de Motores</div>
+    <div class="card">🚗 Suspensão e Direção</div>
+  </div>
+</section>
+
+<section id="contato" class="contato">
+  <h2>Contato</h2>
+  <p>Atendimento direto com o mecânico</p>
+  <strong>📱 (31) 99747-4266</strong>
+</section>
+
+<footer>
+  <p>© 2026 - Romas Car | Oficina do Filipe</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

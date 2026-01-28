@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #070b2a;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #05081f;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff1e1e;
+}
+
+.menu-mobile {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #ff1e1e;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff1e1e;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.servicos {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0b0f3a;
+}
+
+.servicos h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #05081f;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid #ff1e1e;
+}
+
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #05081f;
+  font-size: 14px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background: #05081f;
+    width: 200px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+}
